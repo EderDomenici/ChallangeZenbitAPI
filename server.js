@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json());
 
 
-app.use('https://challangezenbitapi.herokuapp.com', feedbackRoute)
+app.use('https://challangezenbitapi.herokuapp.com/', feedbackRoute)
 
 
 
