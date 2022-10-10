@@ -4,9 +4,9 @@ const routes = express.Router();
 const feedbackController = require('../Controllers/feedbackController')
 
 
-routes.get('/feedback',feedbackController.index)
+routes.get('/',feedbackController.index)
 
-routes.post('/feedback', feedbackController.create)
+routes.post('/', feedbackController.create)
 
 
 
